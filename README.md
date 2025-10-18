@@ -5,8 +5,8 @@ This checklist contains some tips for a **secure**, **stable**, and **robust** a
 ---
 
 ## Core Hygiene
-- [ ] Use an **LTS version** of Node.js; pin major/minor (e.g., 22.x LTS).  
-  Define `"engines"` in `package.json`.
+- [ ] [Use an **LTS version** of Node.js; pin major/minor (e.g., 22.x LTS).  
+  Define `"engines"` in `package.json`.](./core/lts.md)
 - [ ] Set **NODE_ENV=production** to disable debugging and detailed stack traces.
 - [ ] Use a **lockfile** (`package-lock.json`) and run `npm ci` in CI/CD.
 - [ ] Build **immutable, versioned artifacts** (Docker images, bundles).
